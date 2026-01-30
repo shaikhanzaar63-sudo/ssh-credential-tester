@@ -19,7 +19,7 @@ RESET = Fore.RESET
 BLUE = Fore.BLUE
 
 q = queue.Queue()
-
+l
 @contextlib.contextmanager
 def suppress_stderr():
     with open(os.devnull, 'w') as devnull:
@@ -126,3 +126,4 @@ def main():
     q.join()
 if __name__ == "__main__":
     main()
+
