@@ -47,4 +47,4 @@ Number of Threads
 git clone https://github.com/yourusername/ssh-auth-tester.git
 cd ssh-auth-tester
 python3 -m pip install -r requirements.txt
-python3 advanced_ssh_brute.py
+python3 ssh_credential_tester.py
